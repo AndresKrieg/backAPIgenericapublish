@@ -1,0 +1,225 @@
+[
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "Inicio",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "Listar",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProyecto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "Crear",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProyecto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "datosEntidad",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "ObtenerPorClave",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}/{nombreClave}/{valor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProyecto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreClave",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "valor",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "Actualizar",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}/{nombreClave}/{valorClave}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProyecto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreClave",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "valorClave",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "datosEntidad",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "Eliminar",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}/{nombreClave}/{valorClave}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProyecto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreClave",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "valorClave",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "EjecutarConsultaParametrizada",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}/ejecutar-consulta-parametrizada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuerpoSolicitud",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreProyecto",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.EntidadesController",
+    "Method": "VerificarContrasena",
+    "RelativePath": "api/{nombreProyecto}/{nombreTabla}/verificar-contrasena",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombreProyecto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombreTabla",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "datos",
+        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "csharpapigenerica.Controllers.LoginController",
+    "Method": "VerificarContrasena",
+    "RelativePath": "api/pry/usuario/verificar-contrasena",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "csharpapigenerica.Controllers.LoginController\u002BLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
