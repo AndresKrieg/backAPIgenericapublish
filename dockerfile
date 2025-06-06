@@ -11,4 +11,4 @@ RUN dotnet publish "csharpapigenerica.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-ENTRYPOINT ["dotnet", "pry.dll"]
+ENTRYPOINT ["dotnet", "csharpapigenerica.dll"]
